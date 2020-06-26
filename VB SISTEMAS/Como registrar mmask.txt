@@ -1,0 +1,9 @@
+Clique em Iniciar -> Executar e digite cmd -> Ok.
+
+Clique com o botão direito na tela do Prompt de comando e eleve os previlégios para Administrador.
+
+Digite a sequencia de linhas abaixo uma a uma.
+
+cd %windir%\system32
+regsvr32 /u mswinsck.ocx
+regsvr32 mswinsck.ocx
